@@ -60,7 +60,7 @@ describe("About Applying What We Have Learnt", function() {
 
   it("should add all the natural numbers below 1000 that are multiples of 3 or 5 (functional)", function () {
 
-    var sum = 233168;    /* try chaining range() and reduce() */
+    var sum = _.reduce(_.union(_.range(0,1000,3), _.range(0,1000,5)), function(memo, num { return memeo + num; } + 0));    /* try chaining range() and reduce() */
 
     expect(233168).toBe(sum);
   });
