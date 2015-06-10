@@ -62,7 +62,7 @@ describe("About Applying What We Have Learnt", function() {
 
     var sum = _.reduce(_.union(_.range(0,1000,3), _.range(0,1000,5)), function(memo, num { return memeo + num; } + 0));    /* try chaining range() and reduce() */
 
-    expect(233168).toBe(233168);
+    expect(233168).toBe(sum);
   });
 
   /*********************************************************************************/
